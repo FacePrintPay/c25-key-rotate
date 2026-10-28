@@ -41,3 +41,5 @@ cat > "$JOURNAL_FILE" <<EOT
 - Logs: $LOG_DIR/
 EOT
 echo "[\$(date)] Rotation complete for $ROTATION_DATE" >> "$LOG_DIR/rotation.log"
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=key_rotate.sh
